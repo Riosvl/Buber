@@ -1,0 +1,20 @@
+{
+  "name": "Buber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riosvl/Buber.git"
+  },
+  "keywords": [],
+  "author": "Rios and Rucsvel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Riosvl/Buber/issues"
+  },
+  "homepage": "https://github.com/Riosvl/Buber#readme"
+}
