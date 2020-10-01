@@ -20,13 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d04f8840-6746-4b21-9115-e58eca959d43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/App.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/schema.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/User/shared/User.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/User.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ormConfig.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schema.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/graph.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +48,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nomad_coders_projects/nuber-server" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -63,6 +67,10 @@
       <workItem from="1600368250548" duration="614000" />
       <workItem from="1600372039753" duration="1322000" />
       <workItem from="1600532058570" duration="519000" />
+      <workItem from="1600629832631" duration="91000" />
+      <workItem from="1600629953274" duration="10000" />
+      <workItem from="1600629973281" duration="708000" />
+      <workItem from="1601216928300" duration="5000" />
     </task>
     <servers />
   </component>
@@ -82,10 +90,31 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1600369180678">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="639" y="355" width="640" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600629776239">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="639" y="355" width="640" height="403" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1600629776239" />
+    <state x="655" y="207" width="424" height="484" key="FileChooserDialogImpl" timestamp="1600630062891">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1600369180678" />
+    <state x="655" y="207" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1600630062891" />
+    <state width="1897" height="275" key="GridCell.Tab.0.bottom" timestamp="1600629259997">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1897" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1600629259997" />
+    <state width="1897" height="275" key="GridCell.Tab.0.center" timestamp="1600629259997">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1897" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1600629259997" />
+    <state width="1897" height="275" key="GridCell.Tab.0.left" timestamp="1600629259997">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1897" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1600629259997" />
+    <state width="1897" height="275" key="GridCell.Tab.0.right" timestamp="1600629259997">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1897" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1600629259997" />
     <state x="347" y="175" key="run.anything.popup" timestamp="1600285418397">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
